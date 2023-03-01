@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load menus %}
+</head>
+<body>
+
+{% draw_menu 'main_menu' as menu_html %}
+{{ menu_html|safe }}
+
+
+</body>
+</html>
